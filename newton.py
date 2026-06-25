@@ -25,7 +25,7 @@ else:
     E = float(input("enter tolerable error: "))
     M = []
     count = 1
-    x1 = x0  # safe default in case loop never runs
+    x1 = x0 
 
     while count <= N:
         deriv = g(f, x0)
