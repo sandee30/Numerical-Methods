@@ -45,11 +45,7 @@ while count <= N:
     Fy = fy(x0,y0)
     Gx = gx(x0,y0)
     Gy = gy(x0,y0)
-    #matrix elements
-    # a11 = fx(x0,y0)
-    # a12 = fy(x0,y0)
-    # a21 = gx(x0,y0)
-    # a22 = gy(x0,y0)
+
 
     D = Fx*Gy - Fy*Gx
 
